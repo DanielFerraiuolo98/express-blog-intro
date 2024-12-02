@@ -21,6 +21,10 @@ app.get("/", (req, res) => {
 app.get("/bacheca", (req, res) => {
     const posts = req.query.post;
     let stories = [...post];
+    stories = {
+        contatore: post.length,
+        posts: post,
+    }
     if (posts) {
         stories = post.filter((immagine) => {
             return immagine === posts;

@@ -1,8 +1,5 @@
 const post = [
     {
-        quantità: 5,
-    },
-    {
         titolo: "Ciambellone",
         contenuto: "immagine di un ciambellone",
         immagine: "/images/ciambellone.jpeg",
