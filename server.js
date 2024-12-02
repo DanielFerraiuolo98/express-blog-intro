@@ -12,7 +12,7 @@ const PORT = 3000;
 
 app.use(express.static("public"));
 
-const post = require("./images/post.js")
+const post = require("./public/images/post.js")
 
 app.get("/", (req, res) => {
     res.send("<h1> Server del mio blog </h1>");
